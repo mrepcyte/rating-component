@@ -1,5 +1,5 @@
 import React from 'react';
-import { ThankCard, ThankYouIcon, ThankYou, ThankYouP, ThankYouText } from '../styles';
+import { ThankCard, ThankYouIcon, ThankYou, ThankYouP, ThankYouText } from './styles';
 
 const ThankYouCard = ({ ratingValue }) => {
     return (

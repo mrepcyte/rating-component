@@ -1,12 +1,12 @@
 import React from 'react';
 import { GlobalStyle } from './styles';
-import RatingCard from './components/rating-card'
+import MainCard from './components/main-card';
 
 const App = () => {
     return (
         <>
             <GlobalStyle />
-            <RatingCard />
+            <MainCard />
         </>
     );
 };
