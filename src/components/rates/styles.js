@@ -22,4 +22,9 @@ export const Number = styled.p`
         background-color: #fa7613;
         color: #fff;
     }
+
+    @media (max-width: 460px) {
+        width: 16px;
+        height: 16px;
+    }
 `;
