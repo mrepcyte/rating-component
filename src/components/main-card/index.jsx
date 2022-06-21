@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Page } from '../styles';
+import { Page } from './styles';
 import RatingCard from '../rating-card';
 import ThankYouCard from '../thankyou-card';
 
