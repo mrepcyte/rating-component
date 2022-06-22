@@ -56,8 +56,8 @@ export const Button = styled.button`
 
     &:hover {
         cursor: pointer;
-        background-color: #fff;
-        color: #fa7613;
+        background-color: ${({ $userRating }) => ($userRating ? '#fff' : '#fa7613')};
+        color: ${({ $userRating }) => ($userRating ? '#fa7613' : '#fff')};
     }
 
     @media (max-width: 460px) {

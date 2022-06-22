@@ -19,7 +19,7 @@ export const Number = styled.p`
 
     &:hover {
         cursor: pointer;
-        background-color: #fa7613;
+        background-color: ${({ $userRating }) => ($userRating ? '#434954' : '#fa7613')};
         color: #fff;
     }
 

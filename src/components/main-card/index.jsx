@@ -13,12 +13,13 @@ const MainCard = () => {
 
     return (
         <Page>
-            {rateStatus ? (
+            {rateStatus && selectedRating ? (
                 <ThankYouCard ratingValue={selectedRating} />
             ) : (
                 <RatingCard
                     onProcess={rateSubmitHandler}
                     selectedRating={selectedRating}
+                    $userRating={selectedRating}
                     setSelectedRating={setSelectedRating}
                 />
             )}
